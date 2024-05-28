@@ -23,7 +23,7 @@ google_api_key = os.getenv("GOOGLE_API_KEY")
 # create the app
 
 #set title
-st.title("Gemma Q/A Chatbot")
+st.title("PDF Q/A Chatbot")
 
 # setup llm - groq and gemma
 llm = ChatGroq(groq_api_key=groq_api_key, model_name = "Gemma-7b-it")
