@@ -2,10 +2,15 @@ A PDF ChatBot powered by Google Gema & Groq Inference Engine
 
 STEPS TO RUN
 
-1. Clone Repo
+1. Clone Repo & create env
 ```
 git clone https://github.com/devloperhs14/qna_rag-chatbot.git
 ```
+create env
+```
+conda create -p env_name python ==3.12
+```
+
 
 3. Create a `.env` file as:
 ```

@@ -16,7 +16,7 @@ import time
 load_dotenv()
 
 # load groq and google_api_key
-groq_api_key = os.getenv("GROK_API_KEY") 
+groq_api_key = os.getenv("GROQ_API_KEY") 
 google_api_key = os.getenv("GOOGLE_API_KEY") 
 
 
